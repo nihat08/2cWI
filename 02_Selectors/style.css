@@ -1,3 +1,13 @@
-.subHeader {
-    background-color: blue;
+/* Element Selektor  */
+div {
+    background-color: grey;
 }
+/* id selektor */
+.header{
+    font-size: 2rem;
+}
+/* klassenselector */
+.subtitle{
+    color: aqua;
+}
+ 
