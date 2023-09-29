@@ -10,4 +10,6 @@ div {
 .subtitle{
     color: aqua;
 }
- 
+.text p{
+    background-color: blueviolet;
+}
