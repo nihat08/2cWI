@@ -1,19 +1,19 @@
 /* Element Selektor  */
 div {
-    background-color: grey;
+  background-color: grey;
 }
 /* id selektor */
-.header{
-    font-size: 2rem;
+.header {
+  font-size: 2rem;
 }
 /* klassenselector */
-.subtitle{
-    color: aqua;
-    background-color: blue;
-    font-style: italic;
-    font-size: 35px;
+.subtitle {
+  color: aqua;
+  background-color: blue;
+  font-style: italic;
+  font-size: 35px;
 }
-.text p{
-    background-color: blueviolet;
-    font-size: 50px;
+.text p {
+  background-color: blueviolet;
+  font-size: 50px;
 }
