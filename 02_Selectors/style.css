@@ -9,7 +9,11 @@ div {
 /* klassenselector */
 .subtitle{
     color: aqua;
+    background-color: blue;
+    font-style: italic;
+    font-size: 35px;
 }
 .text p{
     background-color: blueviolet;
+    font-size: 50px;
 }
