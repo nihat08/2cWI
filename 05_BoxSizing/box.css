@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  height: 200px;
+  width: 400px;
+  background-color: blueviolet;
+  border-style: solid;
+}
+.first {
+    padding: 50px;
+}
+.second {
+    padding: 50px;
+    background-color: blue;
+}
+.third {
+    padding: 50px;
+}
