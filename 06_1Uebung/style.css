@@ -1,0 +1,15 @@
+.yellowbox{
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.greenbox{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+}
