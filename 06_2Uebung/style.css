@@ -1,0 +1,19 @@
+.bluebox{
+    background-color: blue;
+    height: 400px;
+    width: 200;
+    position: relative;
+}
+.greenbox {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.yellowbox{
+    background-color: yellow;
+    width: 500px;
+    height: 60px;
+}
