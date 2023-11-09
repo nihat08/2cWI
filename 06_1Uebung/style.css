@@ -12,7 +12,9 @@
     background-color: green;
     height: 40px;
     width: 40px;
-    margin: 30px;
+    justify-content: space-around;
+    margin: 50px;
+    
 }
 
 .bluebox{
@@ -21,8 +23,23 @@
     width: 400px;
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 20px; 
+
+     
+}
+.brownbox{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
 }
 .purplebox{
     background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
