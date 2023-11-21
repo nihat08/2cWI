@@ -1,8 +1,10 @@
 .bluebox{
     background-color: blue;
     height: 400px;
-    width: 200;
+    width: 200px;
     position: relative;
+    top: 40px;
+    left: 50px;
 }
 .greenbox {
     background-color: green;
@@ -12,8 +14,28 @@
     bottom: 0px;
     right: 0px;
 }
+.blackbox {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -370px;
+    left: 40px;
+}
 .yellowbox{
     background-color: yellow;
-    width: 500px;
-    height: 60px;
+    height: 100px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    margin: 50px;
+}
+.greenboxes{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    justify-content: space-around;
+    
 }
