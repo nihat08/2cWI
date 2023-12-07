@@ -22,4 +22,14 @@ for (let i = 1235; i >= 1207; i--) {
     console.log(i);    
 }
 
+for (let i = 0; i < 8; i++) {
+    console.log(i +"Nihat");    
+}
 
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+console.log("Nihat");
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+}
