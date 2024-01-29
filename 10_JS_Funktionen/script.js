@@ -32,13 +32,11 @@ function supercalculation(a,b){
 let result4 = supercalculation(a,b);
 console.log(result4);
 
+let year = 31.03;
 function printEasterDate(year){
-    return printEasterDate
+    return year
 }
-let result5 = printEasterDate;
-console.log (printEasterDate);
+let result5 = printEasterDate(year);
+console.log (result5);
 
-function printEasterDate(year){
-    console.log(printEasterDate)
-}
 
