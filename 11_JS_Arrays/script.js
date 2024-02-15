@@ -23,11 +23,7 @@ console.log("Mittelwert =", Summe/6);
 let x = "Susi";
 let y = "Paula";
 let z = "Hans";
-let array2 = [x,y,"und", z];
+let array2 = ["Susi", "Paula", "und", "Hans"];
 
-for (i=0; i<array2.length; i++) {
-    console.log("Meine Freunde sind" + array2[i]);
-}
-console.log("Meine Freunde sind " + array2);
-array2.push("Sepp");
-console.log("Meine Freunde sind " + );
+console.log("Meine Freunde sind" + " " + array2);
+
