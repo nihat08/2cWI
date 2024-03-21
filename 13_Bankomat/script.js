@@ -1,7 +1,3 @@
-//let balance = Math.random() * 100;
-//let balance2 = Math.floor(balance);
-//console.log("Ihr Kontostand beträgt" + " " + balance2 + "€");
-
 import { log } from "console";
 import {createInterface} from "readline";
 
@@ -18,12 +14,11 @@ const readLineAsync =() => {
     });
 };
 
-
 while(true){
-    console.log("Enter command");
+    console.log("Wie viel möchten Sie einzahlen?");
     let selection = await readLineAsync();
 
-    console.log("Your selection :" + selection);
+    console.log("Sie haben" + selection + "€ eingezahlt");
     switch (selection) {
         case 1:
             
@@ -33,6 +28,7 @@ while(true){
             break;
     }
 }
+
 
 
 console.log(name);
