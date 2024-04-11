@@ -3,6 +3,12 @@
   width: 75px;
   border: 2px solid;
   box-shadow: 0 0 0 3px;
+  font-size: 50px;
+  cursor: crosshair;
+}
+#gameContainer {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
 }
 #cellContainer {
   display: grid;
