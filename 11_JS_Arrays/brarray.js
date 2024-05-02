@@ -7,8 +7,8 @@ let names = ["Hans", "Franz", "Peter"];
 
 //zählt den ganzen array durch
 //wenn plus 2 => "i+=2"
-for (let i = 0; i < names.length; i++) {
-  console.log(names[i]);
+for (let i = 0; i < names.length; i += 2) {
+  console.log("ok" + names[i]);
 }
 
 //fürs zürückzählen also nicht 0,1,2,3 sondern 3,2,1,0
@@ -31,4 +31,5 @@ for (let irev = names.length - 1; irev >= 0; irev--) {
 //let NumberOfNames = names.length;
 
 //zeigt an welcher stelle das gesuchte ist
-//let index = names.indexOf("Franz");
+let index = names.indexOf("Hans");
+console.log(index);
